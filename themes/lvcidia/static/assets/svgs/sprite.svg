@@ -1,0 +1,19 @@
+<svg width="218" height="466" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><symbol viewBox="0 0 15 16" id="arrow-bottom"><path d="m12 5.5-4.5 5-4.5-5" style="fill:none;stroke:#010101;stroke-linecap:round;stroke-linejoin:round" /></symbol><symbol id="arrow-external" viewBox="0 0 10 9">
+<path d="M9,4.2V0.5 M9,0.5L5,4.2 M5,0.5h4" fill="none" stroke-width="1" stroke-linejoin="round" stroke-miterlimit="10" />
+<path d="M2.7,1.1H1v7.4h7.4V6.8" fill="none" stroke-width="1" stroke-miterlimit="10" />
+</symbol><symbol viewBox="0 0 15 16" id="arrow-left">
+    <path d="M11.9,8H3.5 M7.1,4.4L3.5,8 M7.1,11.6L3.5,8" />
+</symbol><symbol fill="none" viewBox="0 0 15 16" id="arrow-right"><path d="M3.47 8h8.4M8.27 11.6l3.6-3.6M8.27 4.4l3.6 3.6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" /></symbol><symbol fill="none" viewBox="0 0 25 25" id="customization"><path stroke-linecap="round" stroke-linejoin="round" d="M4.99 8.609h4v4h-4z" /><path stroke-linecap="square" stroke-linejoin="round" d="M6.99 4.609v4M6.99 12.609v8" /><path stroke-linecap="round" stroke-linejoin="round" d="M10.99 14.609h4v4h-4z" /><path stroke-linecap="square" stroke-linejoin="round" d="M12.99 4.609v10" /><path stroke-linecap="round" stroke-linejoin="round" d="M12.99 18.609v2M16.99 5.609h4v4h-4zM18.99 4.609v1M18.99 9.609v11" /></symbol><symbol viewBox="0 0 218 48" id="logo">
+    <path d="M0,0h11.2v38.3h13.9L15.4,48H0V0z M13.4,0h11.7l18.1,48H31.4L13.4,0z M52.8,0v27.7L41.6,38.9V0H52.8z" />
+    <path d="M64.9,9.7c-0.9,2.8-1.4,5.8-1.4,8.8c0,13.4,7.2,19.7,21.1,19.7h15.4L90.2,48H80.1c-15.2,0-24.9-7.9-24.9-21
+        C55.2,19.8,59,12.8,64.9,9.7z M99.9,0v14.5L88.7,25.6v-16H64.9c1-5.4,5.9-9.7,11.4-9.7H99.9z" />
+    <path d="M114.6,0h-11.2v48h11.2V0z" />
+    <path d="M141.7,0c5.5,0,10.4,4.3,11.4,9.7h-23.8v16l-11.2-11.2V0H141.7z M162.8,27c0,13.1-9.7,21-24.9,21h-10.1l-9.7-9.7h15.4
+        c13.9,0,21.1-6.4,21.1-19.7c0-3-0.6-6-1.4-8.8C159,12.8,162.8,19.8,162.8,27z" />
+    <path d="M176.4,38.9l-11.2-11.2V0h11.2V38.9z M174.8,48l18.1-48h11.7l-18.1,48H174.8z M202.6,48l-9.7-9.7h13.9V0H218v48H202.6z" />
+</symbol><symbol viewBox="0 0 195 207" id="logo-diagonal">
+    <path d="M78.3183 0.493164L0.648438 207.493H51.0022L128.507 0.493164H78.3183Z" />
+    <path d="M144.634 0.493164L67.1289 207.493H117.318L194.988 0.493164H144.634Z" />
+</symbol><symbol viewBox="0 0 57 49" id="logo-small">
+<path d="M0 0H12.1039V39.1124H27.0342L16.6262 49H0V0ZM14.3983 0H27.0342L46.4868 49H33.8509L14.3983 0ZM56.8948 0V28.2861L44.791 39.7382V0H56.8948Z" />
+</symbol></defs></svg>
