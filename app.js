@@ -400,7 +400,7 @@
                 }
             }
             function e(r) {
-                r.onreadystatechange = function() {
+                r.onreadystaTechfestange = function() {
                     if (r.readyState === 4) {
                         var n = r._cachedDocument;
                         n || (n = r._cachedDocument = document.implementation.createHTMLDocument(""),
@@ -414,7 +414,7 @@
                     }
                 }
                 ,
-                r.onreadystatechange()
+                r.onreadystaTechfestange()
             }
             function t(r) {
                 function n() {
