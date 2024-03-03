@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
 
     <title>About &#8211; Techshala</title>
@@ -48,437 +48,460 @@
             --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
         }
 
-        :where(.is-layout-flex) {
-            gap: 0.5em;
-        }
-
-        :where(.is-layout-grid) {
-            gap: 0.5em;
-        }
-
-        body .is-layout-flow>.alignleft {
-            float: left;
-            margin-inline-start: 0;
-            margin-inline-end: 2em;
-        }
-
-        body .is-layout-flow>.alignright {
-            float: right;
-            margin-inline-start: 2em;
-            margin-inline-end: 0;
-        }
-
-        body .is-layout-flow>.aligncenter {
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        body .is-layout-constrained>.alignleft {
-            float: left;
-            margin-inline-start: 0;
-            margin-inline-end: 2em;
-        }
-
-        body .is-layout-constrained>.alignright {
-            float: right;
-            margin-inline-start: 2em;
-            margin-inline-end: 0;
-        }
-
-        body .is-layout-constrained>.aligncenter {
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        body .is-layout-constrained> :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-            max-width: var(--wp--style--global--content-size);
-            margin-left: auto !important;
-            margin-right: auto !important;
-        }
-
-        body .is-layout-constrained>.alignwide {
-            max-width: var(--wp--style--global--wide-size);
-        }
-
-        body .is-layout-flex {
-            display: flex;
-        }
-
-        body .is-layout-flex {
-            flex-wrap: wrap;
-            align-items: center;
-        }
-
-        body .is-layout-flex>* {
-            margin: 0;
-        }
-
-        body .is-layout-grid {
-            display: grid;
-        }
-
-        body .is-layout-grid>* {
-            margin: 0;
-        }
-
-        :where(.wp-block-columns.is-layout-flex) {
-            gap: 2em;
-        }
-
-        :where(.wp-block-columns.is-layout-grid) {
-            gap: 2em;
-        }
-
-        :where(.wp-block-post-template.is-layout-flex) {
-            gap: 1.25em;
-        }
-
-        :where(.wp-block-post-template.is-layout-grid) {
-            gap: 1.25em;
-        }
-
-        .has-black-color {
-            color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-color {
-            color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-color {
-            color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-color {
-            color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-color {
-            color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-color {
-            color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-color {
-            color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-color {
-            color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-color {
-            color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-color {
-            color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-color {
-            color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-color {
-            color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-black-background-color {
-            background-color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-background-color {
-            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-background-color {
-            background-color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-background-color {
-            background-color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-background-color {
-            background-color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-background-color {
-            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-background-color {
-            background-color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-background-color {
-            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-background-color {
-            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-background-color {
-            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-background-color {
-            background-color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-black-border-color {
-            border-color: var(--wp--preset--color--black) !important;
-        }
-
-        .has-cyan-bluish-gray-border-color {
-            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
-        }
-
-        .has-white-border-color {
-            border-color: var(--wp--preset--color--white) !important;
-        }
-
-        .has-pale-pink-border-color {
-            border-color: var(--wp--preset--color--pale-pink) !important;
-        }
-
-        .has-vivid-red-border-color {
-            border-color: var(--wp--preset--color--vivid-red) !important;
-        }
-
-        .has-luminous-vivid-orange-border-color {
-            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-amber-border-color {
-            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
-        }
-
-        .has-light-green-cyan-border-color {
-            border-color: var(--wp--preset--color--light-green-cyan) !important;
-        }
-
-        .has-vivid-green-cyan-border-color {
-            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
-        }
-
-        .has-pale-cyan-blue-border-color {
-            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
-        }
-
-        .has-vivid-cyan-blue-border-color {
-            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
-        }
-
-        .has-vivid-purple-border-color {
-            border-color: var(--wp--preset--color--vivid-purple) !important;
-        }
-
-        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
-            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
-        }
-
-        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
-            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
-        }
-
-        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
-            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
-        }
-
-        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
-            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
-        }
-
-        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
-            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
-        }
-
-        .has-cool-to-warm-spectrum-gradient-background {
-            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
-        }
-
-        .has-blush-light-purple-gradient-background {
-            background: var(--wp--preset--gradient--blush-light-purple) !important;
-        }
-
-        .has-blush-bordeaux-gradient-background {
-            background: var(--wp--preset--gradient--blush-bordeaux) !important;
-        }
-
-        .has-luminous-dusk-gradient-background {
-            background: var(--wp--preset--gradient--luminous-dusk) !important;
-        }
-
-        .has-pale-ocean-gradient-background {
-            background: var(--wp--preset--gradient--pale-ocean) !important;
-        }
-
-        .has-electric-grass-gradient-background {
-            background: var(--wp--preset--gradient--electric-grass) !important;
-        }
-
-        .has-midnight-gradient-background {
-            background: var(--wp--preset--gradient--midnight) !important;
-        }
-
-        .has-small-font-size {
-            font-size: var(--wp--preset--font-size--small) !important;
-        }
-
-        .has-medium-font-size {
-            font-size: var(--wp--preset--font-size--medium) !important;
-        }
-
-        .has-large-font-size {
-            font-size: var(--wp--preset--font-size--large) !important;
-        }
-
-        .has-x-large-font-size {
-            font-size: var(--wp--preset--font-size--x-large) !important;
-        }
-
-        .wp-block-navigation a:where(:not(.wp-element-button)) {
-            color: inherit;
-        }
-
-        :where(.wp-block-post-template.is-layout-flex) {
-            gap: 1.25em;
-        }
-
-        :where(.wp-block-post-template.is-layout-grid) {
-            gap: 1.25em;
-        }
-
-        :where(.wp-block-columns.is-layout-flex) {
-            gap: 2em;
-        }
-
-        :where(.wp-block-columns.is-layout-grid) {
-            gap: 2em;
-        }
-
-        .wp-block-pullquote {
-            font-size: 1.5em;
-            line-height: 1.6;
-        }
+      :where(.is-layout-flex) {
+        gap: 0.5em;
+      }
+
+      :where(.is-layout-grid) {
+        gap: 0.5em;
+      }
+
+      body .is-layout-flow > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+
+      body .is-layout-flow > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+
+      body .is-layout-flow > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      body .is-layout-constrained > .alignleft {
+        float: left;
+        margin-inline-start: 0;
+        margin-inline-end: 2em;
+      }
+
+      body .is-layout-constrained > .alignright {
+        float: right;
+        margin-inline-start: 2em;
+        margin-inline-end: 0;
+      }
+
+      body .is-layout-constrained > .aligncenter {
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      body
+        .is-layout-constrained
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: var(--wp--style--global--content-size);
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      body .is-layout-constrained > .alignwide {
+        max-width: var(--wp--style--global--wide-size);
+      }
+
+      body .is-layout-flex {
+        display: flex;
+      }
+
+      body .is-layout-flex {
+        flex-wrap: wrap;
+        align-items: center;
+      }
+
+      body .is-layout-flex > * {
+        margin: 0;
+      }
+
+      body .is-layout-grid {
+        display: grid;
+      }
+
+      body .is-layout-grid > * {
+        margin: 0;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+
+      .has-black-color {
+        color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-color {
+        color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-color {
+        color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-color {
+        color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-color {
+        color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-color {
+        color: var(--wp--preset--color--luminous-vivid-orange) !important;
+      }
+
+      .has-luminous-vivid-amber-color {
+        color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-color {
+        color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-color {
+        color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-color {
+        color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-color {
+        color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-color {
+        color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-background-color {
+        background-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-background-color {
+        background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-background-color {
+        background-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-background-color {
+        background-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-background-color {
+        background-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-background-color {
+        background-color: var(
+          --wp--preset--color--luminous-vivid-amber
+        ) !important;
+      }
+
+      .has-light-green-cyan-background-color {
+        background-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-background-color {
+        background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-background-color {
+        background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-background-color {
+        background-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-black-border-color {
+        border-color: var(--wp--preset--color--black) !important;
+      }
+
+      .has-cyan-bluish-gray-border-color {
+        border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+      }
+
+      .has-white-border-color {
+        border-color: var(--wp--preset--color--white) !important;
+      }
+
+      .has-pale-pink-border-color {
+        border-color: var(--wp--preset--color--pale-pink) !important;
+      }
+
+      .has-vivid-red-border-color {
+        border-color: var(--wp--preset--color--vivid-red) !important;
+      }
+
+      .has-luminous-vivid-orange-border-color {
+        border-color: var(
+          --wp--preset--color--luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-border-color {
+        border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+      }
+
+      .has-light-green-cyan-border-color {
+        border-color: var(--wp--preset--color--light-green-cyan) !important;
+      }
+
+      .has-vivid-green-cyan-border-color {
+        border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+      }
+
+      .has-pale-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+      }
+
+      .has-vivid-cyan-blue-border-color {
+        border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+      }
+
+      .has-vivid-purple-border-color {
+        border-color: var(--wp--preset--color--vivid-purple) !important;
+      }
+
+      .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+        background: var(
+          --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple
+        ) !important;
+      }
+
+      .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+        background: var(
+          --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan
+        ) !important;
+      }
+
+      .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange
+        ) !important;
+      }
+
+      .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+        background: var(
+          --wp--preset--gradient--luminous-vivid-orange-to-vivid-red
+        ) !important;
+      }
+
+      .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+        background: var(
+          --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray
+        ) !important;
+      }
+
+      .has-cool-to-warm-spectrum-gradient-background {
+        background: var(
+          --wp--preset--gradient--cool-to-warm-spectrum
+        ) !important;
+      }
+
+      .has-blush-light-purple-gradient-background {
+        background: var(--wp--preset--gradient--blush-light-purple) !important;
+      }
+
+      .has-blush-bordeaux-gradient-background {
+        background: var(--wp--preset--gradient--blush-bordeaux) !important;
+      }
+
+      .has-luminous-dusk-gradient-background {
+        background: var(--wp--preset--gradient--luminous-dusk) !important;
+      }
+
+      .has-pale-ocean-gradient-background {
+        background: var(--wp--preset--gradient--pale-ocean) !important;
+      }
+
+      .has-electric-grass-gradient-background {
+        background: var(--wp--preset--gradient--electric-grass) !important;
+      }
+
+      .has-midnight-gradient-background {
+        background: var(--wp--preset--gradient--midnight) !important;
+      }
+
+      .has-small-font-size {
+        font-size: var(--wp--preset--font-size--small) !important;
+      }
+
+      .has-medium-font-size {
+        font-size: var(--wp--preset--font-size--medium) !important;
+      }
+
+      .has-large-font-size {
+        font-size: var(--wp--preset--font-size--large) !important;
+      }
+
+      .has-x-large-font-size {
+        font-size: var(--wp--preset--font-size--x-large) !important;
+      }
+
+      .wp-block-navigation a:where(:not(.wp-element-button)) {
+        color: inherit;
+      }
+
+      :where(.wp-block-post-template.is-layout-flex) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-post-template.is-layout-grid) {
+        gap: 1.25em;
+      }
+
+      :where(.wp-block-columns.is-layout-flex) {
+        gap: 2em;
+      }
+
+      :where(.wp-block-columns.is-layout-grid) {
+        gap: 2em;
+      }
+
+      .wp-block-pullquote {
+        font-size: 1.5em;
+        line-height: 1.6;
+      }
     </style>
     <style id="theme-critical-inline-css">
-        .c-loader {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: #000;
-            z-index: 190;
-            color: #e9e9e9;
-            display: flex;
-            align-items: center;
-            justify-content: center
-        }
+      .c-loader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        z-index: 190;
+        color: #e9e9e9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
 
-        html.is-first-loaded .c-loader {
-            transition: opacity .6s .7s cubic-bezier(0.215, 0.61, 0.355, 1), visibility 0s 1.4s cubic-bezier(0.215, 0.61, 0.355, 1);
-            opacity: 0;
-            visibility: hidden
-        }
+      html.is-first-loaded .c-loader {
+        transition: opacity 0.6s 0.7s cubic-bezier(0.215, 0.61, 0.355, 1),
+          visibility 0s 1.4s cubic-bezier(0.215, 0.61, 0.355, 1);
+        opacity: 0;
+        visibility: hidden;
+      }
 
-        .c-loader_content {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 10px 20px;
-            position: relative;
-            height: 50px
-        }
+      .c-loader_content {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 20px;
+        position: relative;
+        height: 50px;
+      }
 
-        .c-loader_content_border_wrap {
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0
-        }
+      .c-loader_content_border_wrap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
 
-        html.is-first-loaded .c-loader_content_border_wrap {
-            transition: opacity .6s cubic-bezier(0.215, 0.61, 0.355, 1), transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
-            transition-delay: .6s;
-            opacity: 0;
-            transform: scale3d(1.3, 1.3, 1) rotate(10deg)
-        }
+      html.is-first-loaded .c-loader_content_border_wrap {
+        transition: opacity 0.6s cubic-bezier(0.215, 0.61, 0.355, 1),
+          transform 0.6s cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition-delay: 0.6s;
+        opacity: 0;
+        transform: scale3d(1.3, 1.3, 1) rotate(10deg);
+      }
 
-        .c-loader_content_border {
-            position: absolute;
-            width: 14px;
-            height: 14px;
-            border: 1px dashed gray
-        }
+      .c-loader_content_border {
+        position: absolute;
+        width: 14px;
+        height: 14px;
+        border: 1px dashed gray;
+      }
 
-        .c-loader_content_border:nth-child(1) {
-            top: 0;
-            left: 0;
-            border-right: 0;
-            border-bottom: 0
-        }
+      .c-loader_content_border:nth-child(1) {
+        top: 0;
+        left: 0;
+        border-right: 0;
+        border-bottom: 0;
+      }
 
-        .c-loader_content_border:nth-child(2) {
-            top: 0;
-            right: 0;
-            border-left: 0;
-            border-bottom: 0
-        }
+      .c-loader_content_border:nth-child(2) {
+        top: 0;
+        right: 0;
+        border-left: 0;
+        border-bottom: 0;
+      }
 
-        .c-loader_content_border:nth-child(3) {
-            bottom: 0;
-            right: 0;
-            border-left: 0;
-            border-top: 0
-        }
+      .c-loader_content_border:nth-child(3) {
+        bottom: 0;
+        right: 0;
+        border-left: 0;
+        border-top: 0;
+      }
 
-        .c-loader_content_border:nth-child(4) {
-            bottom: 0;
-            left: 0;
-            border-right: 0;
-            border-top: 0
-        }
+      .c-loader_content_border:nth-child(4) {
+        bottom: 0;
+        left: 0;
+        border-right: 0;
+        border-top: 0;
+      }
 
-        .c-loader_content_label {
-            font-family: "PP Supply Mono", Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-            font-size: rem(13px);
-            line-height: 1;
-            text-transform: lowercase;
-            letter-spacing: .01em;
-            font-weight: normal
-        }
+      .c-loader_content_label {
+        font-family: "PP Supply Mono", Menlo, Consolas, Monaco, Liberation Mono,
+          Lucida Console, monospace;
+        font-size: rem(13px);
+        line-height: 1;
+        text-transform: lowercase;
+        letter-spacing: 0.01em;
+        font-weight: normal;
+      }
 
-        .c-loader_content_label span {
-            opacity: 0
-        }
+      .c-loader_content_label span {
+        opacity: 0;
+      }
 
-        html.is-first-loaded .c-loader_content_label span {
-            transition: opacity 0s linear;
-            opacity: 1
-        }
+      html.is-first-loaded .c-loader_content_label span {
+        transition: opacity 0s linear;
+        opacity: 1;
+      }
 
-        html.is-first-loaded .c-loader_content_label span:nth-child(1) {
-            transition-delay: 0s
-        }
+      html.is-first-loaded .c-loader_content_label span:nth-child(1) {
+        transition-delay: 0s;
+      }
 
-        html.is-first-loaded .c-loader_content_label span:nth-child(2) {
-            transition-delay: .1s
-        }
+      html.is-first-loaded .c-loader_content_label span:nth-child(2) {
+        transition-delay: 0.1s;
+      }
 
-        html.is-first-loaded .c-loader_content_label span:nth-child(3) {
-            transition-delay: .2s
-        }
+      html.is-first-loaded .c-loader_content_label span:nth-child(3) {
+        transition-delay: 0.2s;
+      }
     </style>
     <link rel="stylesheet" id="theme-app-css"
         href="../themes/Techfest/static/assets/styles/main34d4.css?ver=0.0.0+1707311096330" media="print"
@@ -488,8 +511,17 @@
     <script src="../themes/Techfest/static/assets/scripts/app34d4.js?ver=0.0.0+1707311096330" id="theme-app-js"
         defer></script>
     <link rel="https://api.w.org/" href="../wp-json/index.html" />
-    <link rel="alternate" type="application/json" href="../wp-json/wp/v2/pages/61.json" />
-    <link rel="EditURI" type="application/rsd+xml" title="RSD" href="../wordpress/xmlrpc0db0.html?rsd" />
+    <link
+      rel="alternate"
+      type="application/json"
+      href="../wp-json/wp/v2/pages/61.json"
+    />
+    <link
+      rel="EditURI"
+      type="application/rsd+xml"
+      title="RSD"
+      href="../wordpress/xmlrpc0db0.html?rsd"
+    />
     <meta name="generator" content="WordPress 6.3" />
     <link rel='shortlink' href='../index094d.html?p=61' />
     <link rel="alternate" type="application/json+oembed"
@@ -537,11 +569,9 @@
         </div>
     </div>
 
-    <a class="c-skip-link" href="#content" data-module-skip-link>Skip to main content</a>
-
-
-
-
+    <a class="c-skip-link" href="#content" data-module-skip-link
+      >Skip to main content</a
+    >
 
     <header class="c-header" data-module-header>
         <a class="c-header_logo" href="../index.html" title="">
@@ -771,39 +801,33 @@
     <div class="c-spinner -circle"></div>
 
     <div data-load-container>
-        <div class="c-cursor" style="opacity:0;">
-            <div class="c-cursor_inner" data-module-cursor>
-                <div class="c-cursor_button">
-
-
-
-
-                    <button class="c-button  c-cursor_button_inner">
-                        <span class="c-button_label">
-                            <span class="c-button_label_inner || u-anim-chars" data-module-split-text
-                                data-split-text-type="chars">
-                                read more
-                            </span>
-                        </span>
-
-                    </button>
-                </div>
-                <div class="c-cursor_stroke">
-                    <div class="c-cursor_stroke_corner"></div>
-                    <div class="c-cursor_stroke_corner"></div>
-                    <div class="c-cursor_stroke_corner"></div>
-                    <div class="c-cursor_stroke_corner"></div>
-                </div>
-            </div>
+      <div class="c-cursor" style="opacity: 0">
+        <div class="c-cursor_inner" data-module-cursor>
+          <div class="c-cursor_button">
+            <button class="c-button c-cursor_button_inner">
+              <span class="c-button_label">
+                <span
+                  class="c-button_label_inner || u-anim-chars"
+                  data-module-split-text
+                  data-split-text-type="chars"
+                >
+                  read more
+                </span>
+              </span>
+            </button>
+          </div>
+          <div class="c-cursor_stroke">
+            <div class="c-cursor_stroke_corner"></div>
+            <div class="c-cursor_stroke_corner"></div>
+            <div class="c-cursor_stroke_corner"></div>
+            <div class="c-cursor_stroke_corner"></div>
+          </div>
         </div>
+      </div>
 
-        <nav class="c-quicknav">
-
-
-
-
-            <div class="c-menu -quicknav ">
-                <div class="c-line || c-menu_line"></div>
+      <nav class="c-quicknav">
+        <div class="c-menu -quicknav">
+          <div class="c-line || c-menu_line"></div>
 
                 <div class="c-menu_inner">
                     <ul class="c-menu_list">
@@ -925,35 +949,20 @@
                             </div>
                         </div>
 
-                        <div class="u-overflow-hidden">
-                            <div class="o-container">
-                                <div class="o-grid -cols -gutters">
-                                    <div id="manifesto" class="o-grid_item u-gc-4/13@from-medium" data-scroll
-                                        data-scroll-repeat data-scroll-offset="50%,0%" data-scroll-ignore-fold
-                                        data-scroll-call="onSectionBoundary, Sidebar">
-
-
-
-
-
-
-
-
-                                        <div class="c-section u-margin-huge-bottom">
-                                            <div class="o-container">
-
-
-
-
-
-
-                                            </div>
-
-
-
-
-
-
+              <div class="u-overflow-hidden">
+                <div class="o-container">
+                  <div class="o-grid -cols -gutters">
+                    <div
+                      id="manifesto"
+                      class="o-grid_item u-gc-4/13@from-medium"
+                      data-scroll
+                      data-scroll-repeat
+                      data-scroll-offset="50%,0%"
+                      data-scroll-ignore-fold
+                      data-scroll-call="onSectionBoundary, Sidebar"
+                    >
+                      <div class="c-section u-margin-huge-bottom">
+                        <div class="o-container"></div>
 
                                             <div class="c-manifesto">
                                                 <div class="c-manifesto_content">
@@ -987,60 +996,69 @@
                                 <div class="o-container">
                                 </div>
 
-                                <div class="o-container">
+                  <div class="o-container">
+                    <div
+                      id="experiences"
+                      data-scroll
+                      data-scroll-repeat
+                      data-scroll-offset="50%,0%"
+                      data-scroll-ignore-fold
+                      data-scroll-call="onSectionBoundary, Sidebar"
+                    ></div>
 
+                    <div
+                      class="o-grid -gutters -cols || u-margin-big-top u-margin-big-bottom"
+                    >
+                      <div class="o-grid_item u-gc-4/8@from-medium">
+                        <div class="c-wysiwyg || u-anim-opacity">
+                          <h2>YOUR AWAKENING JOURNEY_</h2>
+                          <p>
+                            Every month, we aim to release a new experience
+                            created by a renowned or rising digital artist.
+                            These experiences will explore a theme of the
+                            artist’s choice, providing an opportunity for
+                            self-growth. It is our hope that the viewer will
+                            leave the experience changed for the better.
+                          </p>
+                          <p>
+                            This is an awakening experience. Discover the power
+                            of digital art and let it transform you.
+                          </p>
+                        </div>
+                      </div>
 
+                      <div class="o-grid_item u-gc-9/13@from-medium">
+                        <div class="u-margin-medium-top@to-medium">
+                          <div class="c-image -border-radius -lazy-load">
+                            <div class="c-image_inner">
+                              <img
+                                class="c-image_img"
+                                alt=""
+                                width="1000"
+                                height="590"
+                                src="../uploads/2023/05/about_02-min-1000x0-c-default.jpg"
+                                loading="lazy"
+                              />
+                              <div
+                                class="c-image_placeholder"
+                                style="
+                                  background-image: url('../uploads/2023/05/about_02-min-1000x0-c-default-16x9-c-center.jpg');
+                                "
+                              ></div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
-
-                                    <div id="experiences" data-scroll data-scroll-repeat data-scroll-offset="50%,0%"
-                                        data-scroll-ignore-fold data-scroll-call="onSectionBoundary, Sidebar">
-                                    </div>
-
-                                    <div class="o-grid -gutters -cols || u-margin-big-top u-margin-big-bottom">
-                                        <div class="o-grid_item u-gc-4/8@from-medium">
-                                            <div class="c-wysiwyg || u-anim-opacity">
-                                                <h2>YOUR AWAKENING JOURNEY_</h2>
-                                                <p>Every month, we aim to release a new experience created by a renowned
-                                                    or rising digital artist. These experiences will explore a theme of
-                                                    the artist’s choice, providing an opportunity for self-growth. It is
-                                                    our hope that the viewer will leave the experience changed for the
-                                                    better.</p>
-                                                <p>This is an awakening experience. Discover the power of digital art
-                                                    and let it transform you.</p>
-
-                                            </div>
-                                        </div>
-
-                                        <div class="o-grid_item u-gc-9/13@from-medium">
-                                            <div class="u-margin-medium-top@to-medium">
-
-
-
-
-
-
-
-
-
-
-                                                <div class="c-image -border-radius -lazy-load ">
-                                                    <div class="c-image_inner">
-                                                        <img class="c-image_img" alt="" width="1000" height="590"
-                                                            src="../uploads/2023/05/about_02-min-1000x0-c-default.jpg"
-                                                            loading="lazy">
-                                                        <div class="c-image_placeholder"
-                                                            style="background-image: url('../uploads/2023/05/about_02-min-1000x0-c-default-16x9-c-center.jpg')">
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div id="roadmap" data-scroll data-scroll-repeat data-scroll-offset="50%,0%"
-                                        data-scroll-ignore-fold data-scroll-call="onSectionBoundary, Sidebar">
-                                    </div>
+                    <div
+                      id="roadmap"
+                      data-scroll
+                      data-scroll-repeat
+                      data-scroll-offset="50%,0%"
+                      data-scroll-ignore-fold
+                      data-scroll-call="onSectionBoundary, Sidebar"
+                    ></div>
 
 
                                     <div
@@ -1267,43 +1285,34 @@
                                 </div>
                             </div>
 
-                            <div class="o-container">
-                                <div class="o-grid -cols -gutters">
-                                    <div id="teams" class="o-grid_item u-gc-4/13@from-medium" data-scroll
-                                        data-scroll-repeat data-scroll-offset="50%,0%" data-scroll-ignore-fold
-                                        data-scroll-call="onSectionBoundary, Sidebar">
-
-
-
-
-
-
-
-
-                                        <div class="c-section u-margin-huge-bottom">
-                                            <div class="o-container">
-
-
-
-
-
-
-                                                <div class="c-section-header || u-margin-tiny-bottom">
-                                                    <div class="c-section-header_line || c-line"></div>
-                                                    <div class="c-section-header_title">
-                                                        <h2 class="c-heading -h3-black">
-                                                            <span class="u-anim-chars" data-module-split-text
-                                                                data-split-text-type="chars">
-                                                                Teams
-                                                            </span>
-                                                        </h2>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-
+                <div class="o-container">
+                  <div class="o-grid -cols -gutters">
+                    <div
+                      id="teams"
+                      class="o-grid_item u-gc-4/13@from-medium"
+                      data-scroll
+                      data-scroll-repeat
+                      data-scroll-offset="50%,0%"
+                      data-scroll-ignore-fold
+                      data-scroll-call="onSectionBoundary, Sidebar"
+                    >
+                      <div class="c-section u-margin-huge-bottom">
+                        <div class="o-container">
+                          <div class="c-section-header || u-margin-tiny-bottom">
+                            <div class="c-section-header_line || c-line"></div>
+                            <div class="c-section-header_title">
+                              <h2 class="c-heading -h3-black">
+                                <span
+                                  class="u-anim-chars"
+                                  data-module-split-text
+                                  data-split-text-type="chars"
+                                >
+                                  Teams
+                                </span>
+                              </h2>
+                            </div>
+                          </div>
+                        </div>
 
                                             <div class="c-team">
                                                 <div class="c-team_group" data-scroll data-scroll-module-progress
